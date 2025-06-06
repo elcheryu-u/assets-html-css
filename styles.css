@@ -1,0 +1,22 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 2rem;
+  line-height: 1.6;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+h1, h2 {
+  color: #222;
+}
+
+@font-face {
+  font-family: 'Rubik Doodle Shadow';
+  src: url('./assets/fonts/RubikDoodleShadow-Regular.ttf');
+}
+
+.custom-font {
+  font-weight: bold;
+  font-size: 1.2rem;
+  font-family: 'Rubik Doodle Shadow';
+}

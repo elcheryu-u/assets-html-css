@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Incrustación de Assets en HTML y CSS</title>
+
+  <!-- Estilos CSS -->
+  <link rel="stylesheet" href="./styles.css" />
+
+  <!-- Fuente personalizada (Google Fonts) -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+
+  <!-- Icono favicon -->
+  <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+</head>
+<body>
+  <h1>Ejemplo de Incrustación de Assets</h1>
+
+  <!-- Imagen -->
+  <section>
+    <h2>🖼️ Imagen</h2>
+    <img src="./assets/images/example.jpg" alt="Ejemplo de imagen" width="300" />
+  </section>
+
+  <!-- Video -->
+  <section>
+    <h2>🎥 Video</h2>
+    <video controls width="400">
+      <source src="./assets/videos/video.mp4" type="video/mp4" />
+      Tu navegador no soporta el video.
+    </video>
+  </section>
+
+  <!-- Audio -->
+  <section>
+    <h2>🔊 Audio</h2>
+    <audio controls>
+      <source src="./assets/videos/video.mp4" type="audio/mp3" />
+      Tu navegador no soporta el audio.
+    </audio>
+  </section>
+
+  <!-- Fuente personalizada (aplicada desde Google Fonts en <head>) -->
+  <section>
+    <h2>🔤 Fuente personalizada</h2>
+    <p class="custom-font">Este texto utiliza la fuente "Rubik Doodle Shadow".</p>
+  </section>
+
+  <!-- Documento incrustado (PDF) -->
+  <section>
+    <h2>📄 Documento PDF incrustado</h2>
+    <iframe src="./assets/docs/example.pdf" width="100%" height="400px"></iframe>
+  </section>
+
+  <!-- Datos JSON cargados en JS -->
+  <section>
+    <h2>📊 Datos JSON (ver consola)</h2>
+    <p>Revisa la consola para ver los datos cargados dinámicamente.</p>
+  </section>
+
+  <!-- Icono SVG -->
+  <section>
+    <h2>⭐ Icono SVG</h2>
+    <img src="./assets/icons/star.svg" alt="Icono estrella" width="50" />
+  </section>
+
+  <!-- Script JS -->
+  <script src="./script.js"></script>
+</body>
+</html>

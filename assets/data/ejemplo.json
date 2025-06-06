@@ -1,0 +1,20 @@
+{
+  "nombre": "John Doe",
+  "edad": 19,
+  "lenguajes": ["HTML", "CSS", "JavaScript", "React"],
+  "estudiante": true,
+  "universidad": {
+    "nombre": "Universidad de Tecnología",
+    "semestre": 4
+  },
+  "proyectos": [
+    {
+      "nombre": "Portafolio personal",
+      "url": "https://miportafolio.com"
+    },
+    {
+      "nombre": "App de tareas",
+      "url": "https://github.com/johndoe/app-tareas"
+    }
+  ]
+}
